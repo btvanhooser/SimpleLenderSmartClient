@@ -1,0 +1,18 @@
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\Simple Lending Smart Client.exe.config
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\Simple Lending Smart Client.exe
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\Simple Lending Smart Client.pdb
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\Newtonsoft.Json.dll
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\RestSharp.dll
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\Newtonsoft.Json.xml
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\bin\Debug\RestSharp.xml
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple Lending Smart Client.csprojResolveAssemblyReference.cache
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.Form1.resources
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.Properties.Resources.resources
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple Lending Smart Client.csproj.GenerateResource.Cache
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple Lending Smart Client.exe
+c:\users\brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple Lending Smart Client.pdb
+C:\Users\Brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.ApplicationInformationHandler.resources
+C:\Users\Brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.ApplicationSearchHelper.resources
+C:\Users\Brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.LenderSelect.resources
+C:\Users\Brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.MainWindow.resources
+C:\Users\Brian\documents\visual studio 2015\Projects\Simple Lending Smart Client\Simple Lending Smart Client\obj\Debug\Simple_Lending_Smart_Client.ManualDecisionHelper.resources
