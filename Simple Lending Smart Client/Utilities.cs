@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Simple_Lending_Smart_Client
+﻿namespace Simple_Lending_Smart_Client
 {
     public static class Utilities
     {
+        //TODO Change uri's
         //dev
         //public static string uri = "http://small-scale-lending-api-btvanhooser.c9users.io:8080";
         //prod
