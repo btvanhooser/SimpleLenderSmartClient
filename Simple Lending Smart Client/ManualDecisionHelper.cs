@@ -10,6 +10,7 @@ namespace Simple_Lending_Smart_Client
         public ManualDecisionHelper()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void saveButton_Click(object sender, EventArgs e)

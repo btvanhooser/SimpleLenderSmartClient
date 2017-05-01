@@ -12,6 +12,7 @@ namespace Simple_Lending_Smart_Client
         public LenderSelect(List<string> lenders)
         {
             InitializeComponent();
+            CenterToScreen();
             lenderList.DataSource = lenders;
         }
 

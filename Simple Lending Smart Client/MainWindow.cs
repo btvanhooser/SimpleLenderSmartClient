@@ -17,6 +17,7 @@ namespace Simple_Lending_Smart_Client
         public MainWindow(string userToken, LenderModel lenderInUse)
         {
             InitializeComponent();
+            CenterToScreen();
             this.userToken = userToken;
             this.lenderInUse = lenderInUse;
             this.Text = lenderInUse.name;
@@ -26,7 +27,7 @@ namespace Simple_Lending_Smart_Client
         private void newAppToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ApplicationInformationHandler nextWindow = new ApplicationInformationHandler(userToken, lenderInUse.lendercode);
-            nextWindow.ShowDialog();
+            nextWindow.ShowDialog(this);
             RefreshWindow();
         }
 
@@ -48,7 +49,7 @@ namespace Simple_Lending_Smart_Client
                 var id = int.Parse(row.Cells[0].Value.ToString());
                 var application = GetSpecificApplication(id);
                 ApplicationInformationHandler nextWindow = new ApplicationInformationHandler(userToken, lenderInUse.lendercode, application);
-                nextWindow.ShowDialog();
+                nextWindow.ShowDialog(this);
                 RefreshWindow();
             }
         }
@@ -88,7 +89,7 @@ namespace Simple_Lending_Smart_Client
         {
             using (var form = new ApplicationSearchHelper())
             {
-                if (form.ShowDialog() == DialogResult.OK)
+                if (form.ShowDialog(this) == DialogResult.OK)
                 {
                     if (form.firstName.Length == 0)
                     {

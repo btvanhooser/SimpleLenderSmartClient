@@ -11,6 +11,7 @@ namespace Simple_Lending_Smart_Client
         public ApplicationSearchHelper()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void lastNameInput_TextChanged(object sender, EventArgs e)

@@ -16,6 +16,7 @@ namespace Simple_Lending_Smart_Client
         public ApplicationInformationHandler(string userToken, string lenderCode, ApplicationModel app = null)
         {
             InitializeComponent();
+            CenterToScreen();
             this.userToken = userToken;
             this.lenderCode = lenderCode;
 
@@ -254,7 +255,7 @@ namespace Simple_Lending_Smart_Client
 
             using (var form = new ManualDecisionHelper())
             {
-                if (form.ShowDialog() == DialogResult.OK)
+                if (form.ShowDialog(this) == DialogResult.OK)
                 {
                     currentApp.status = form.newDecision;
                 }

@@ -18,6 +18,7 @@ namespace Simple_Lending_Smart_Client
         public Form1()
         {
             InitializeComponent();
+            CenterToScreen();
         }
 
         private void loginButton_Click(object sender, EventArgs e)
@@ -36,7 +37,7 @@ namespace Simple_Lending_Smart_Client
             else
             {
                 MainWindow mainWindow = new MainWindow(userToken, lenderInUse);
-                mainWindow.Show();
+                mainWindow.Show(this);
                 Hide();
             }
         }
@@ -89,7 +90,7 @@ namespace Simple_Lending_Smart_Client
 
                 using (var form = new LenderSelect(lenderOptions))
                 {
-                    if (form.ShowDialog() == DialogResult.OK)
+                    if (form.ShowDialog(this) == DialogResult.OK)
                     {
                         lendercode = form.lendercode;
                     }
